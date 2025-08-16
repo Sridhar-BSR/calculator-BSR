@@ -1,0 +1,72 @@
+
+body{
+  background-color:firebrick;
+  font-family: monospace;
+
+}
+
+
+.main {
+  
+  padding: 20px;
+  border-radius: 10px;
+  width:280px;
+  margin: 50px auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+
+
+}
+
+#screen {
+  width: 258px;
+  height: 40px;
+  font-size: 22px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  text-align:left;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border:1px solid black;
+  cursor: pointer;
+  align-items: center;
+}
+
+.digitbutton {
+  background-color: #f0f0f0;
+  border-radius:10px;
+  color: black;
+  margin-left:9px;
+
+}
+
+.operator {
+  background-color: #ff9800;
+  color: white;
+  margin-left:8px;
+}
+
+#equalto {
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+}
+
+#clear {
+  background-color: red;
+  color: white;
+  width: 270px;
+}
